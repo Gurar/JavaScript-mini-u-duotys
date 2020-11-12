@@ -3,35 +3,41 @@
 /*  1. Sukurti 3 kintamuosius su skaičiaus tipo reikšmėmis
         a. Po kiekvieno jų inicijavimo, išvesti į console*/
 
-const a = 5, b = 10, c = 4.5;
+const a = 5;
 console.log(a);
+const b = 10
 console.log(b);
+const c = 4.5;
 console.log(c);
 
 /*  2. Sukurti 3 kintamuosius su teksto tipo reikšmėmis
         a. Po kiekvieno jų inicijavimo, išvesti į console*/
 
-const name = 'Jezy', surname = 'Kozlovski', github = 'Gurar';
+const name = 'Jezy';
 console.log(name);
+const surname = 'Kozlovski';
 console.log(surname);
+const github = 'Gurar';
 console.log(github);
 
 /*  3. Sukurti 3 sąrašo tipo kintamuosius su penkiomis skaičių tipo reikšmėmis
         a. Po kiekvieno jų inicijavimo, išvesti į console*/
 
-const numbers = [1,4.5,6,100,-3], luckyNumbers = [13, 6, 9, 666, 7], points = [5, 8, 7, 9, 10];
+const numbers = [1,4.5,6,100,-3];
 console.log(numbers);
+const luckyNumbers = [13, 6, 9, 666, 7];
 console.log(luckyNumbers);
+const points = [5, 8, 7, 9, 10];
 console.log(points);
 
 /*  4. Sukurti 3 sąrašo tipo kintamuosius su penkiomis teksto tipo reikšmėmis
         a. Po kiekvieno jų inicijavimo, išvesti į console*/
 
-const citys = ['Vilnius', 'Kaunas', 'Panevezys', 'Siauliai', 'Klaipeda'],
-      fruits = ['apple', 'pineapple', 'banana', 'orange', 'strawberry'],
-      names = ['Tomas', 'Povilas', 'Anna', 'Jonas', 'Antanas'];
+const citys = ['Vilnius', 'Kaunas', 'Panevezys', 'Siauliai', 'Klaipeda'];
 console.log(citys);
+const fruits = ['apple', 'pineapple', 'banana', 'orange', 'strawberry'];
 console.log(fruits);
+const names = ['Tomas', 'Povilas', 'Anna', 'Jonas', 'Antanas'];
 console.log(names);
 
 //Veiksmai su kintamaisiais
@@ -87,6 +93,8 @@ if(b > a) {
 }else {
     console.log("Bandykite kita karta");
 }
+
+
 
 /* Išvesti teksto tipo kintamųjų ilgius*/
 console.log(name.length);

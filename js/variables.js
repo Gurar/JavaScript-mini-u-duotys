@@ -68,17 +68,43 @@ console.log(sum4);
 
 
 let text2 = '';
-text2 = text2 + citys[4];
-text2 = text2 + ', ' + citys[3];
-text2 = text2 + ', ' + citys[2];
-text2 = text2 + ', ' + citys[1];
-text2 = text2 + ', ' + citys[0];
+text2 += citys[4];
+text2 += ', ' + citys[3];
+text2 += ', ' + citys[2];
+text2 += ', ' + citys[1];
+text2 += ', ' + citys[0];
 
 const text3 = `${fruits[4]}, ${fruits[3]}, ${fruits[2]}, ${fruits[1]}, ${fruits[0]}`;
 const text4 = `${names[4]}, ${names[3]}, ${names[2]}, ${names[1]}, ${names[0]}`;
 console.log(text2);
 console.log(text3);
 console.log(text4);
+
+const acountBalance = '&#97';
+
+const transfer = 'a';
+
+if(acountBalance < transfer) {
+        console.log(true);
+}else {
+        console.log(false);
+}
+
+// if(acountBalance) {
+//         console.log('Banko zinute: pavedimas padarytas.');
+// }
+
+// if(acountBalance >= transfer) {
+//         console.log('Banko zinute: pavedimas padarytas.');
+// }else {
+//         console.log('banko zinute: saskaitoje truksta pinigu.');
+// }
+
+
+
+
+
+
 
 
 

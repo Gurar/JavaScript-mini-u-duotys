@@ -43,12 +43,15 @@ console.log(text.length);
 
 const tekstas = 'abcdef';
 const kiekis = tekstas.length;
+let rezultatas = '';
 
 for(let i = 0; i < kiekis; i++) {
     if(i % 2 !== 0) {
-      console.log(tekstas[i]);
+      rezultatas +=tekstas[i];
     }
 }
+
+console.log(rezultatas);
 
 
 
